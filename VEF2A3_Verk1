@@ -1,1 +1,30 @@
-
+1. Echo getur verið notað án gæsalappa. Print getur líka bara tekið inn eina breytu meðan Echo getur tekið in margar.
+2. Einfaldar birtir allt eins og það er skrifað í strenginn en Tvöfaldar taka eftir breytum og birta þær.
+    <?php
+      $txti1 = "texti eitt";
+      echo "hér kemur $txti1";
+    ?
+output: hér kemur texti eitt.
+    <?php
+      $talaeitt = 9;
+      echo '4 + 5 = $talaeitt';
+    ?>
+output: 4 + 5 = $talaeitt
+3.  <?php 
+      $tala1 = 54;
+      $tala2 = 16; 
+    
+      function globals() {
+        $GLOBALS['tala3'] = $GLOBALS['tala1'] + $GLOBALS['tala2'];
+      }
+    
+      globals();
+      echo $tala3;
+    ?>
+  4. 
+  5. 
+  6. $a = 1; þýðir að $a er 1.
+  $b = $a++; þýðir að $b sé $a + 1, eða 2.
+  $c = ++$a; þúðir að $c sé $a + 1.
+  echo $a . $b . $c; skilar svarinu 5.
+  8. 
