@@ -3,7 +3,7 @@
     <?php
       $txti1 = "texti eitt";
       echo "hér kemur $txti1";
-    ?
+    ?>
 output: hér kemur texti eitt.
     <?php
       $talaeitt = 9;
