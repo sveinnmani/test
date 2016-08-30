@@ -27,4 +27,32 @@ output: 4 + 5 = $talaeitt
   $b = $a++; þýðir að $b sé $a + 1, eða 2.
   $c = ++$a; þúðir að $c sé $a + 1.
   echo $a . $b . $c; skilar svarinu 5.
-  8. 
+  8.<?php 
+      $londogborgir = arrray("Japan - Tokyo", "Mexico", "Mexico City", "India - Mumbaui", "Korea - Seoul", "China - Shanghai");
+      
+      foreach($londogborgir as $output){
+        echo "$output <br>";
+      }
+    ?>
+  9.<?php
+    $colors = array("red","blue","green");
+
+    list($a, $b, $c) = $colors;
+    echo "$a $b $c.";
+    ?>
+  10 og 11. <?php
+        $states = array("Texas", "Ohio");
+        array_unshift($states,"California");
+        array_push($states,"New York");
+        print_r($states);
+        
+        shuffle($states);
+        print_r($states);
+    ?>
+ 12. 
+ 13. 
+ 14. netcasesort() mun raða fylkinu í "pic1.jpg", "pic2.jpg", "PIC10.jpg", "pic20.jpg".
+ sort() mun raða fylkinu í "PIC10.jpg", "pic1.jpg", "pic2.jpg", "pic20.jpg";
+ 15. HTTP(Hypertext Transfer Protocol) eru reglur fyrir að setja skjöl á netið. Stateless það ekki server til að fá upplýsingar um session.
+ 17. Server-side scripting er notað í vefvinnslu, keypt eru kóðar á netinu.
+ 
